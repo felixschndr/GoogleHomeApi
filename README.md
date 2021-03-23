@@ -4,7 +4,7 @@ This is an unofficial API to communicate to Google Smart Speakers. I only use(d)
 ---
 
 ## Credit
-First of all credit where credit is due: This project is a mix of information found by Rithvik Vibhu found on his [Github](https://github.com/rithvikvibhu/GHLocalApi) and his [website](https://rithvikvibhu.github.io/GHLocalApi/). **Most of the code is copied from him.** I only edited stripped it down and collected everything I needed to make it work.
+First of all credit where credit is due: This project is a mix of information found by Rithvik Vibhu found on his [Github](https://github.com/rithvikvibhu/GHLocalApi) and his [website](https://rithvikvibhu.github.io/GHLocalApi/). **Most of the code is copied one-to-one from him.** I only edited stripped it down and collected everything I needed to make it work.
 
 ----
 ## Setup
@@ -51,3 +51,10 @@ First of all I recommend to read the [existing documentation of Rithvik Vibhu](h
 ## Example
 
 As stated above the only need for me was to get future alarms of my NestHub to send this information to [openHAB](https://www.openhab.org/). For this I included the whole script to achieve this in `get_alarms_and_send_to_openhab.sh`.
+
+-----
+
+## Questions?
+
+If you have any questions feel free to [contact me](fs@felix-schneider.org) or open an issue. Of course you may add a merge request to improve this documentation if you think it could be improved.
+Moreover you may send an email to [Rithvik Vibhu](rithvikvibhu@gmail.com).
