@@ -79,13 +79,13 @@ if not device_id:
 
 
 if master_token:
-    print('\nMaster Token war gegeben, er wird nicht bestimmt...')
+    print('\nMaster Token given, it will not be created...')
 else:
-    print('\nMaster Token wird bestimmt...')
+    print('\nMaster Token gets created...')
     master_token = get_master_token(USERNAME, PASSWORD, device_id)
 print(master_token)
 
-print('\nAccess Token wird bestimmt...')
+print('\nAccess Token gets created...')
 if not access_token:
     access_token = get_access_token(USERNAME, master_token, device_id)
 print(access_token)
