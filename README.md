@@ -32,7 +32,7 @@ First of all I recommend to read the [existing documentation of Rithvik Vibhu](h
 
 2. Get the auth token
    This is an token which is needed to talk to the API of google and changes frequently. To achieve this I used [grpcurl](https://github.com/fullstorydev/grpcurl) as Rithvik Vibhu instructed.
-   - I had to clone the repository and make a compiled and executed version of it. I think this was possible by navigating to the source directory and using `go install` (given you have `go` installed)
+   - I had to clone the repository and make a compiled and executed version of it. I think this was possible by navigating to the source directory and using `go install` or `go build` (given you have `go` installed)
    - However I did this already and included the output in the file get_local_auth_token.go so you don't have to =).
 
     You can run it just like a bash script `./get_local_auth_token.go` although I don't know if having `go` installed is a requirement. If so you can find some instructions [here](https://golang.org/doc/install).
